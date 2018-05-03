@@ -1,0 +1,5 @@
+1.create android ndk build env(my folder is /opt/cross_tool/android-ndk-r16b)
+2.sh ./configure.sh
+3.change bin/default/include/config.h
+get out vfs_posix_eadb_init() from static_init_vfs(if not do it, compile will fail)
+4.sh ./compile.sh
